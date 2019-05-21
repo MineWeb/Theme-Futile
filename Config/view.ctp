@@ -5,6 +5,7 @@ if(isset($config['logo']) && $config['logo']) {
 $form_input['img'] = $config['logo'];
 $form_input['filename'] = 'theme_logo.png';
 }
+
 echo $this->Html->script('admin/tinymce/tinymce.min.js');
 
 ?>
